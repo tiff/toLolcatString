@@ -4,7 +4,8 @@ A JQUERY- AN YQL-BASD METHOD 2 TRANZLATE PLAIN ENGLISH INTO FUNNY LOLCAT ENGLISH
 
 h2. Example
 
-bc.. var myString = "Hello, how are you?";
+bc..
+  var myString = "Hello, how are you?";
   myString.toLolcatString(function(lolcatString) {
     alert(lolcatString);
   });
