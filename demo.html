@@ -1,0 +1,21 @@
+<!-- THIS CAN BE FOUND AT http://tifftiff.de/toLolcatString/ -->
+<!DOCTYPE html>
+<html> 
+	<head> 
+		<title>String.prototype.toLolcatString</title> 
+	</head> 
+	<body> 
+		<h1>Convert Plain English To Lolcat Speak</h1> 
+		<p>This script uses <a href="http://jquery.com" target="_blank">jQuery</a> and <a href="http://developer.yahoo.com/yql/" target="_blank">Yahoo Query Language (YQL)</a>.</p> 
+		<input type="text" value="Hi. How are you?" id="input" size="100" /> <input type="button" value="convert to lolcat speak" id="convert" /> 
+		<p>Get the script at <a href="https://github.com/tiff/toLolcatString" target="_blank">github</a>.</p> 
+ 
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script> 
+		<script type="text/javascript" src="toLolcatString.js"></script> 
+		<script type="text/javascript"> 
+			$("#convert").click(function() {
+				$("#input").val().toLolcatString(function(lolcatStr) { alert(lolcatStr); });
+			});
+		</script> 
+	</body> 
+</html>

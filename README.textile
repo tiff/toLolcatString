@@ -1,0 +1,16 @@
+h1. String.prototype.toLolcatString
+
+A JQUERY- AN YQL-BASD METHOD 2 TRANZLATE PLAIN ENGLISH INTO FUNNY LOLCAT ENGLISH. KKTHXBAI.
+
+h2. Example
+
+bc..{code} var myString = "Hello, how are you?";
+  myString.toLolcatString(function(lolcatString) {
+    alert(lolcatString);
+  });
+  
+h2. Links
+
+* LOLCAT TRANSLATOR: "http://speaklolcat.com/":http://speaklolcat.com/
+* jQuery: "http://jquery.com":http://jquery.com
+* YQL: "http://developer.yahoo.com/yql/":http://developer.yahoo.com/yql/
